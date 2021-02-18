@@ -1,0 +1,29 @@
+ /******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.completed{
+  text-decoration: line-through;
+}
+.bodySection{
+  border: 1px solid rgb(77, 4, 4);
+  border-radius: 15px;
+  background-color: rgb(151, 72, 72);
+  padding: 10px;
+  width: 80%;
+  height: 800px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

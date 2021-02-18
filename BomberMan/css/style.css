@@ -1,0 +1,33 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+#blueMan{
+  height: 100px;
+  width: 100px;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+span{
+  font-size: 100px;
+}
+
+body{
+  background-image: url(../img/boardgame.png);
+  z-index: 1;
+  background-size: cover;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
